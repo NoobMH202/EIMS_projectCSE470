@@ -1,0 +1,126 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ .loginBtn {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.centered{
+  background-color: rgba(0,0,0,0.5);
+  width: 60%;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 15px
+  rgba(0,0,0,0.3);
+  color: #fff;
+}
+
+
+.userlogin {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.userlogin2 {
+  margin: 10%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigatebtn{
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table,td,th{
+  border: 2px solid grey;
+  text-align: left;
+}
+
+table{
+  width: 80%;
+  border-collapse: collapse;
+}
+
+th,td{
+  padding: 20px;
+}
+
+/*
+#dd1{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#dd2{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+*/
+
+.drpdwn{
+  display:block;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.subbtn1{
+ 
+    transition-duration: 0.4s;
+    font-size: 16px;
+    padding: 10px 24px;
+    border-radius: 4px;
+    border: 2px solid #5dacbd;
+}
+  
+.subbtn1:hover {
+    background-color: #5dacbd; 
+    color: white;
+}
+
+.sgnup_btn{
+  transition-duration: 0.4s;
+  font-size: 16px;
+  padding: 10px 24px;
+  border-radius: 4px;
+  border: 2px solid #97cba9;
+}
+
+.sgnup_btn:hover{
+  background-color: #97cba9; 
+  color: white;
+}
+
+.container {
+  position:relative;
+  text-align: center;
+  color: black;
+  font-size:medium;
+}
+
+.centered {
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
