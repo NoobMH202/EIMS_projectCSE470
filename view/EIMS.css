@@ -1,3 +1,5 @@
+
+
 .center {
     display: block;
     margin-left: auto;
@@ -103,7 +105,7 @@ th,td{
   font-size: 16px;
   padding: 10px 24px;
   border-radius: 4px;
-  border: 2px solid #97cba9;
+
 }
 
 .sgnup_btn:hover{
@@ -116,6 +118,7 @@ th,td{
   text-align: center;
   color: black;
   font-size:medium;
+  padding: 50px;
 }
 
 .centered {
@@ -124,3 +127,6 @@ th,td{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
+
